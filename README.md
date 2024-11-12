@@ -17,12 +17,14 @@ Cryptograph Encrypt Decrypt adalah aplikasi web yang memungkinkan pengguna untuk
 ## Instalasi
 Untuk menjalankan aplikasi ini, Anda perlu menginstal beberapa dependensi. Anda dapat menggunakan pip untuk menginstalnya:
 
+bash
 pip install streamlit pycryptodome rsa
 
 
 ## Cara Menjalankan
 Setelah semua dependensi terinstal, Anda dapat menjalankan aplikasi dengan perintah berikut:
 
+bash
 streamlit run encryptdecrypt.py
 
 Kemudian, buka browser Anda dan akses `http://localhost:8501` untuk melihat aplikasi.
